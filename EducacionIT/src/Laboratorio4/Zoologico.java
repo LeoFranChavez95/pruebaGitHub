@@ -30,7 +30,9 @@ public class Zoologico {
 	
 	public void alimentarAnimales(int unaCantidadDeRaciones) {
 		
-		
+		Cuidador cuidador = new Cuidador(unaCantidadDeRaciones);
+		System.out.println("Alcanzo la comida para alimentar a los animales ?? : " + cuidador.alimentarAnimales());
+	
 	}
 	
 	public boolean zoologicoAbierto() {
